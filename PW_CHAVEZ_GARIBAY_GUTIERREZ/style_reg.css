@@ -1,0 +1,29 @@
+body
+{
+	background-color:blue;
+}
+
+.reg
+{
+	background-color:white;
+	font-size:30px;
+	width:400px;
+	height:230px;
+	margin:auto;
+	
+	
+}
+table
+{
+	text-align:center;
+}
+
+td
+{
+	padding:4%;
+}
+input 
+{
+	width:250px;
+	height:40px;
+}

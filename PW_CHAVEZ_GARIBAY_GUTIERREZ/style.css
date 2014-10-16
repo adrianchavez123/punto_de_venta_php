@@ -1,0 +1,323 @@
+h1
+{
+	text-align:center;
+	margin:auto;
+	font-size:40px;
+}
+article
+{
+	margin:auto;
+}
+table
+{
+	margin:auto;
+}
+#marco
+{
+	width:1100px;
+	height:600px;
+	margin:auto;
+	border:0%;
+}
+.head
+{
+	background-color:#686868;
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.empresa
+{
+	color:FFFF33;
+	font-size: 70px;
+	text-align:right;
+}
+.slogan
+{
+	color:CCFF00;
+	font-weight:bold;
+	text-align:right;
+}
+
+
+body
+{
+	background-color:#E0E0E0;
+
+}
+.noticias
+{
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.imagen1
+{
+	background-image:url("images/1.png");
+	width:300px;
+	height:250px;
+	
+}
+.imagen2
+{
+	background-image:url("images/2.png");
+	width:300px;
+	height:250px;
+	
+}
+.imagen3
+{
+	background-image:url("images/3.png");
+	width:300px;
+	height:250px;
+	
+}
+.imagen4
+{
+	background-image:url("images/4.png");
+	width:300px;
+	height:250px;
+	
+}
+.imagen5
+{
+	background-image:url("images/5.png");
+	width:300px;
+	height:250px;
+	
+}
+.imagen6
+{
+	background-image:url("images/6.png");
+	width:300px;
+	height:250px;
+	
+}
+ul,ol
+{
+	list-style:none;
+}
+td {
+	vertical-align: top;
+}
+
+.menu
+{
+	margin:auto;
+	width:900px;
+	font-family:Arial,Helvetica,sans-serif;
+
+}
+
+#tit
+{
+	font-size:35px;
+	text-align:center;
+}
+#com
+{
+	text-align:left;
+}
+#campo
+{
+	width:300px;
+	height:40px;
+}
+
+#detalle
+{
+	text-align:center;
+	width:90%;
+	border:2px solid black;
+}
+.mi-menu li a
+{
+	margin:auto;
+	width:90%;
+	background-color:003333;
+	color:#050E1C;
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+	padding:10px 15px;
+	display:block;
+}
+#img_prod
+{
+	width:64px;
+	height:64px;
+}
+.mi-menu li a:hover
+{
+	background-color:33FF66;
+}
+
+.mi-menu   > li
+{
+	float:left;
+}
+
+
+.mi-menu li ul
+{
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.mi-menu li:hover >ul
+{
+	display:block;
+}
+
+.mi-menu li ul li
+{
+	position:relative;
+}
+
+.mi-menu li ul li ul
+{
+	right:-140px;
+	top:0px;
+}
+.lista ul li {
+	
+   list-style-type: none;
+  background-color:333399;
+   height:50px;
+}
+.lista li a
+{
+	background-color:333399;
+	color:white;
+	text-decoration:none;
+	padding:10px 15px;
+	display:block;
+}
+
+.lista li a:hover
+{
+	background-color:660099;
+}
+footer
+{
+	margin-top:100px;
+	background-color:3399CC;
+	color:white;
+	height:50px;
+	border: 5px outset;
+}
+#foot{text-align:center;}
+
+#fila
+{
+	height:30px;
+	
+}
+.nota
+{
+	background-color:white;
+	margin:auto;
+	width:700px;
+	border: solid 1px black;
+}
+.encabezado_nota
+{
+	background-color:white;
+	margin:auto;
+	width:700px;
+	border: solid 1px black;
+
+}
+#img_prod
+{
+	width:64px;
+	height:64px;
+}
+.cuadro_prod
+{  
+	width:200px;
+	height:150px;
+	text-align:center;
+
+}
+#logo
+{
+	background-image:url("images/logo.png");
+	width:700px;
+	height:200px;
+}
+#tabla_productos
+{
+    border: solid 1px black;
+	margin:auto;
+}
+#env
+{
+	background-image:url("images/envio.png");
+	width:280px;
+	height:80px;
+}
+#tabla_admin
+{
+	margin:auto;
+	border: solid 5px black;
+}
+#x
+{
+	margin:auto;
+	border: solid 1px black;
+	text-align:center;
+}
+.img_a
+{
+	height:64px;
+	width:64px;
+}
+#tit_tabla
+{
+	width:200px;
+}
+#tit_tabla2
+{
+	width:90px;
+}
+i#tab_h
+{
+	width:100px;
+}
+
+.error
+{
+	color:red;
+}
+
+.warning
+{
+	color:orange;
+}
+
+.success
+{
+	color:green;
+}
+#imagenes
+{
+	width:64px;
+	height:64px;
+	
+}
+.imagenes
+{
+	width:64px;
+	height:64px;
+	
+}
+.imagenes2
+{
+	width:80px;
+	height:80px;
+	
+}

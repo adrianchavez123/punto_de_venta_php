@@ -1,0 +1,127 @@
+<html>
+<head>
+	<title>Compra</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+
+	<section id="contenedor">
+		<header>
+		
+			<table class="head">
+				<tr>
+					<td>
+						<img id="logo" />					
+					</td>
+					<td>
+						<h1 class="empresa"align="right">Mi nombre de empresa</h1>
+						<h3 class="slogan" align="right">Texto aquí</h3>
+					</td>
+				</tr>
+			</table>
+			
+			<br>
+			<br>
+		<br>
+		<br>
+		<h1 id="tit">Detalle Compra</h1>
+		<section>
+			<form action="generar_nota.html"method="post" name="form" id="form">
+				
+				<table id="detalle" colspan="6">
+				
+					<tr id="com">
+						<th>Seleccionar</th>
+						<th>Descripción</th>
+						<th>Foto</th>
+						<th>Precio</th>
+						<th>Existencia</th>
+						<th>Cantidad o compra</th>
+					</tr>
+					<tr id="com">
+						<td><input type="checkbox" name="selecccionar" id="seleccionar"/></td>
+						<td><input type="text" name="descripcion" id="descripcion"/></td>
+						<td><img src="" id="img_prod"/></td>
+						<td><input type="text" name="precio" id="precio"/></td>
+						<td><input type="text" name="existencia" id="existencia"/></td>
+						<td><input type="number" name="cantidad" id="cantidad"/></td>
+					</tr>
+					<tr id="com">
+						<td><input type="checkbox" name="selecccionar2" id="seleccionar2"/></td>
+						<td><input type="text" name="descripcion2" id="descripcion2"/></td>
+						<td><img src="" id="img_prod"/></td>
+						<td><input type="text" name="precio2" id="precio2"/></td>
+						<td><input type="text" name="existencia2" id="existencia2"/></td>
+						<td><input type="number" name="cantidad2" id="cantidad2"/></td>
+					</tr>
+					<tr id="com">
+						<td><input type="checkbox" name="selecccionar3" id="seleccionar3"/></td>
+						<td><input type="text" name="descripcion3" id="descripcion3"/></td>
+						<td><img src="" id="img_prod"/></td>
+						<td><input type="text" name="precio3" id="precio3"/></td>
+						<td><input type="text" name="existencia3" id="existencia3"/></td>
+						<td><input type="number" name="cantidad3" id="cantidad3"/></td>
+					</tr>
+
+					<tr id="com">
+						<td><input type="checkbox" name="selecccionar4" id="seleccionar4"/></td>
+						<td><input type="text" name="descripcion4" id="descripcion4"/></td>
+						<td><img src="" id="img_prod"/></td>
+						<td><input type="text" name="precio4" id="precio4"/></td>
+						<td><input type="text" name="existencia4" id="existencia4"/></td>
+						<td><input type="number" name="cantidad4" id="cantidad4"/></td>
+					</tr>
+					<tr id="com">
+						<td><input type="checkbox" name="selecccionar5" id="seleccionar5"/></td>
+						<td><input type="text" name="descripcion5" id="descripcion5"/></td>
+						<td><img src="" id="img_prod"/></td>
+						<td><input type="text" name="precio5" id="precio5"/></td>
+						<td><input type="text" name="existencia5" id="existencia5"/></td>
+						<td><input type="number" name="cantidad5" id="cantidad5"/></td>
+					</tr>
+					<tr id="com">
+						<td><input type="checkbox" name="selecccionar6" id="seleccionar6"/></td>
+						<td><input type="text" name="descripcion6" id="descripcion6"/></td>
+						<td><img src=""id="img_prod"/></td>
+						<td><input type="text" name="precio6" id="precio6"/></td>
+						<td><input type="text" name="existencia6" id="existencia6"/></td>
+						<td><input type="number" name="cantidad6" id="cantidad6"/></td>
+					</tr>
+					<tr id="com">
+						<td><input type="checkbox" name="selecccionar7" id="seleccionar7"/></td>
+						<td><input type="text" name="descripcion7" id="descripcion7"/></td>
+						<td><img src="" id="img_prod"/></td>
+						<td><input type="text" name="precio7" id="precio7"/></td>
+						<td><input type="text" name="existencia7" id="existencia7"/></td>
+						<td><input type="number" name="cantidad7" id="cantidad7"/></td>
+					</tr>
+				</table>
+				<table colspan="3">
+					<tr>
+						<td id="ok">
+							<input type="radio" name="nota" id="nota"/>Nota<br>
+							<input type="radio" name="factura" id="factura"/>Factura<br>
+
+						</td>
+						<td id="ok">
+							<input type="image" id="env"/>
+							
+
+						</td>
+						<td id="ok">
+							<input type="button" value="Alta cliente" title="Alta cliente" onclick="window.location='alta_cliente.html'"/>
+						</td>
+					</tr>
+
+				</table>
+			</form>
+		</section>
+	
+		<footer>
+			<h3 id="foot">Mi direccion &nbsp || &nbsp Mi telefóno &nbsp || &nbsp mi email</h3>
+		</footer>
+	</section>
+</body>
+</html>
